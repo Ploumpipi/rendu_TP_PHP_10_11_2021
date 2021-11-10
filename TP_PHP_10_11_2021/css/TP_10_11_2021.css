@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(248, 89, 222); 
+}
+
+table{
+    width: 25%;
+    border-collapse: collapse;
+    border:1px solid black;
+}
+td{
+    border: 1px solid black;
+    padding: 15px;
+}
+
+tr:nth-child(even){
+    background-color: #a09898a6;
+}
+tr:nth-child(odd){
+    background-color: #2c2b2ba6;
+}
+
+tr:hover{
+    background-color: blueviolet;
+}
+
+thead{
+    background-color: black;
+    color: white;
+}
+
+.notes{
+    width: 15px;
+}
